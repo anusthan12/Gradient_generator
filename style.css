@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+     background-repeat: repeat-y; 
+  }
+
+  h1 {
+    margin-top: 100px;
+    font-size: 45px;
+    font-family: Georgia, serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: #fff;
+  margin: 40px auto;
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  width: 80%;
+  border-radius: 15px;
+  padding: 32px;
+  backdrop-filter: blur(10px);
+  }
+
+  .container-color {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  } 
+
+  .container-css {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  input {
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  input:hover {
+    background-color: rgba(44, 40, 40, 0.8);
+    cursor: pointer;
+  }
+
+  .css-head, .css-link {
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+     background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .css-head {
+    margin-right: 4px;
+  }
+
+  .css-link:hover {
+    color: rgb(211, 211, 220);
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  button {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+  margin: 40px auto;
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  width: 80%;
+  border-radius: 15px;
+  padding: 32px;
+  backdrop-filter: blur(10px);
+  }
+
+  .generator {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.2);
+  }
+
+  @media screen and (max-width: 550px) {
+    body {
+      background-repeat: repeat;
+    }
+  }
